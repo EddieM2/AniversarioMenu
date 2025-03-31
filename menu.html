@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="src/style/menu.css">
+
+    <title>Menu</title>
+</head>
+<body>
+    <div class="navbar">
+        <h1>Menú Principal</h1>
+        <span id="user-greeting">Hola, Usuario</span>
+      </div>
+    
+      <div class="menu">
+        <div class="menu-item" onclick="goTo('album.html')">
+          <h3>📸 Álbum de Fotos</h3>
+        </div>
+        <div class="menu-item" onclick="goTo('https://eddiem2.github.io/Flores/')">
+          <h3>📊 Flores</h3>
+        </div>
+        <div class="menu-item" onclick="goTo('#')">
+          <h3>⚙️ Configuración</h3>
+        </div>
+        <div class="menu-item" onclick="goTo('login.html')">
+          <h3>🔒 Cerrar sesión</h3>
+        </div>
+      </div>
+    
+      <script src="src/js/menu.js"></script>
+</body>
+</html>
